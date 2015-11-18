@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayToDo.Data", "RayToDo.Data\RayToDo.Data.csproj", "{705B5ED0-3557-46E7-9C50-55C11344E08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayToDo.Services", "RayToDo.Services\RayToDo.Services.csproj", "{751CD1A9-3D35-4A65-A8F9-57754DB98210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayToDo.Services.Tests", "RayToDo.Services.Tests\RayToDo.Services.Tests.csproj", "{28D42F70-071C-44F2-B6FA-170ABDB4EA4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayToDo.Api", "RayToDo.Api\RayToDo.Api.csproj", "{0932C0C6-6C14-450A-AD95-85B44DEDA66E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{705B5ED0-3557-46E7-9C50-55C11344E08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705B5ED0-3557-46E7-9C50-55C11344E08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705B5ED0-3557-46E7-9C50-55C11344E08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705B5ED0-3557-46E7-9C50-55C11344E08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751CD1A9-3D35-4A65-A8F9-57754DB98210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751CD1A9-3D35-4A65-A8F9-57754DB98210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751CD1A9-3D35-4A65-A8F9-57754DB98210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751CD1A9-3D35-4A65-A8F9-57754DB98210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D42F70-071C-44F2-B6FA-170ABDB4EA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D42F70-071C-44F2-B6FA-170ABDB4EA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D42F70-071C-44F2-B6FA-170ABDB4EA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D42F70-071C-44F2-B6FA-170ABDB4EA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0932C0C6-6C14-450A-AD95-85B44DEDA66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0932C0C6-6C14-450A-AD95-85B44DEDA66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0932C0C6-6C14-450A-AD95-85B44DEDA66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0932C0C6-6C14-450A-AD95-85B44DEDA66E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

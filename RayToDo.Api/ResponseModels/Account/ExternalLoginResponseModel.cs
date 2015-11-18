@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace RayToDo.Api.ResponseModels.Account
+{
+    public class ExternalLoginResponseModel
+    {
+        public string Name { get; set; }
+
+        public string Url { get; set; }
+
+        public string State { get; set; }
+    }
+}
