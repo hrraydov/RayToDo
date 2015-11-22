@@ -1,0 +1,8 @@
+﻿<div data-ng-init="init()">
+    <button class="btn btn-primary" data-ng-click="create()">Create new list</button>
+    <div class="row">
+        <div class="col-md-3" data-ng-repeat="list in lists">
+            {{list.Name}}
+        </div>
+    </div>
+</div>

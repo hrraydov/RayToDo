@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayToDo.Services.Tests", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RayToDo.Api", "RayToDo.Api\RayToDo.Api.csproj", "{0932C0C6-6C14-450A-AD95-85B44DEDA66E}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "RayToDo.Web", "RayToDo.Web\RayToDo.Web.njsproj", "{588646F5-7027-496C-8647-903D596A33D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0932C0C6-6C14-450A-AD95-85B44DEDA66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0932C0C6-6C14-450A-AD95-85B44DEDA66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0932C0C6-6C14-450A-AD95-85B44DEDA66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588646F5-7027-496C-8647-903D596A33D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588646F5-7027-496C-8647-903D596A33D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588646F5-7027-496C-8647-903D596A33D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588646F5-7027-496C-8647-903D596A33D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

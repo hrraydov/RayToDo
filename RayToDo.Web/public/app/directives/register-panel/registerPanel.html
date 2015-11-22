@@ -1,0 +1,49 @@
+﻿<h2 class="text-center">Register</h2>
+<hr />
+<form novalidate name="registerForm" data-ng-submit="register(registerForm)" class="form-horizontal">
+
+    <div class="alert alert-success" data-ng-show="registerSuccess">
+        {{ message }}
+    </div>
+    <div class="alert alert-danger" data-ng-show="registerFail">
+        <ul data-ng-messages="registerForm.username.$error">
+            <li data-ng-message="required">Username is required</li>
+        </ul>
+        <ul data-ng-messages="registerForm.email.$error">
+            <li data-ng-message="required">Email is required</li>
+            <li data-ng-message="email">Enter valid email</li>
+        </ul>
+        <ul data-ng-messages="registerForm.password.$error">
+            <li data-ng-message="required">Password is required</li>
+        </ul>
+        <ul data-ng-messages="registerForm.password_confirm.$error">
+            <li data-ng-message="compareTo">Passwords do not match</li>
+        </ul>
+        <ul>
+            <li data-ng-repeat="error in errors">
+                {{ error }}
+            </li>
+        </ul>
+    </div>
+
+    <div class="form-group">
+        <input type="text" name="username" class="form-control" placeholder="Username" data-ng-model="data.username" required autofocus />
+    </div>
+
+    <div class="form-group">
+        <input type="email" name="email" class="form-control" placeholder="Email" data-ng-model="data.email" required />
+    </div>
+
+    <div class="form-group">
+        <input type="password" name="password" class="form-control" placeholder="Password" data-ng-model="data.password" required />
+    </div>
+
+    <div class="form-group">
+        <input type="password" name="password_confirm" class="form-control" placeholder="Password Confirm" data-ng-model="data.password_confirm" data-compare-to="data.password"/>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block">Register</button>
+    </div>
+
+</form>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>RayToDo</title>
+    <base href="/" />
+    <link href="vendor/bootstrap/dist/css/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="vendor/bootstrap/dist/css/bootstrap-theme.css" type="text/css" rel="stylesheet" />
+    <link href="vendor/angular-loading-bar/build/loading-bar.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <data-navigation></data-navigation>
+    <div data-ng-view class="container"></div>
+
+
+    <script src="vendor/angular/angular.js"></script>
+    <script src="vendor/angular-route/angular-route.js"></script>
+    <script src="vendor/angular-messages/angular-messages.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="vendor/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="vendor/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="vendor/angular-local-storage/dist/angular-local-storage.js"></script>
+
+    <!-- Load application module and constants -->
+    <script src="app/app.module.js"></script>
+    <script src="app/config/constants.js"></script>
+    <!-- Load core services -->
+    <script src="app/services/AuthService.js"></script>
+    <script src="app/services/AuthInterceptor.js"></script>
+    <!-- Run the application -->
+    <script src="app/config/interceptors.js"></script>
+    <script src="app/config/routes.js"></script>
+    <script src="app/config/loadingBar.js"></script>
+    <script src="app/config/run.js"></script>
+    <!-- Load services -->
+    <script src="app/services/ListService.js"></script>
+    <!-- Load directives -->
+    <script src="app/directives/compare-to/compareTo.js"></script>
+    <script src="app/directives/navigation/navigation.js"></script>
+    <script src="app/directives/register-panel/registerPanel.js"></script>
+    <script src="app/directives/login-panel/loginPanel.js"></script>
+    <!-- Load controllers -->
+    <script src="app/controllers/HomeCtrl.js"></script>
+    <script src="app/controllers/ListsIndexCtrl.js"></script>
+    <script src="app/controllers/ListsCreateCtrl.js"></script>
+</body>
+</html>

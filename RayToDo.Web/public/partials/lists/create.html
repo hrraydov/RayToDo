@@ -1,0 +1,18 @@
+﻿<div class="modal-header">
+    <h2 class="text-center">Create new To-Do list</h2>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" name="createListForm" novalidate data-ng-submit="create(createListForm)">
+        <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Name" data-ng-model="data.name" required />
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" name="description" placeholder="Description" data-ng-model="data.description" required></textarea>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" data-ng-click="create()">Create</button>
+    <button class="btn btn-default" data-ng-click="close()">Close</button>
+</div>
+

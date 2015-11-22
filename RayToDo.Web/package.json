@@ -1,0 +1,13 @@
+{
+  "name": "RayToDo.Web",
+  "version": "0.0.0",
+  "description": "RayToDo.Web",
+  "main": "server.js",
+  "author": {
+    "name": "Hristo",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "4.*"
+  }
+}

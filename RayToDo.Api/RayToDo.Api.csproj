@@ -262,6 +262,7 @@
     <Compile Include="RequestModels\TaskLists\AddRightRequestModel.cs" />
     <Compile Include="RequestModels\TaskLists\CreateRequestModel.cs" />
     <Compile Include="RequestModels\TaskLists\InviteRequestModel.cs" />
+    <Compile Include="RequestModels\Tasks\CreateRequestModel.cs" />
     <Compile Include="ResponseModels\Account\BaseUserResponseModel.cs" />
     <Compile Include="ResponseModels\Account\ExternalLoginResponseModel.cs" />
     <Compile Include="ResponseModels\Account\ManageInfoResponseModel.cs" />

@@ -4,6 +4,7 @@ using RayToDo.Services.Interfaces;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System;
 
 namespace RayToDo.Services
 {
@@ -20,6 +21,18 @@ namespace RayToDo.Services
         {
             db.Tasks.Add(item);
             db.SaveChanges();
+        }
+
+        public IEnumerable<Task> GetByTaskListId(int taskListId)
+        {
+            var taskList = db.TaskLists.Include(x => x.Tasks).FirstOrDefault(x => x.Id == taskListId);
+
+            if (taskList == null)
+            {
+                throw new Exception("Task list does not exist");
+            }
+
+            return taskList.Tasks;
         }
 
         public void Delete(Task item)
